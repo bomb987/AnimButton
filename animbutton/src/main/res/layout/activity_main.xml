@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0044FF">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF88FF88"
+        android:gravity="center"
+        android:text="点击按钮展开"
+        android:textSize="40sp"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="#FF88FFFF"/>
+    <ImageButton
+        android:id="@+id/imgbtn2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="#FFFF88FF"/>
+    <ImageButton
+        android:id="@+id/imgbtn3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="#FFFFFF88"/>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="#FF8888FF"
+        android:onClick="Open"/>
+
+</RelativeLayout>
